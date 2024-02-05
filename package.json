@@ -1,0 +1,21 @@
+{
+  "name": "emergency-room-italy-api",
+  "version": "1.0.0",
+  "description": "Emergency Room Italy Backend APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "workspaces": [
+    "packages/"
+  ],
+  "author": "hello@maxgallo.io",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.2.4"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
