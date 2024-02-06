@@ -1,36 +1,28 @@
 # Emergency Room Italy
 
-- Required `sam` cli
-```
-brew tap aws/tap
-brew install aws-sam-cli
-```
-
-
-
-# DATA
-| #   | Region                        | Website  | App           |
-| --- | ---                           | ---      | ---           |
-|   1 | Regione Abruzzo               | yes (4)  | no            |
-|   2 | Regione Basilicata            | no       | no            |
-|   3 | Regione Calabria              | some (1) | no            |
-|   4 | Regione Campania              | some (1) | no            |
-|   5 | Regione Emilia Romagna        | yes      | iOS           |
-|   6 | Regione Friuli Venezia Giulia | yes      | iOS + Android |
-|   7 | Regione Lazio                 | yes      | iOS + Android |
-|   8 | Regione Liguria               | yes      | Android       |
-|   9 | Regione Lombardia             | yes      | iOS + Android |
-|  10 | Regione Marche                | some (2) | iOS + Android |
-|  11 | Regione Molise                | yes      | no            |
-|  12 | Regione Piemonte              | some (4) | no            |
-|  13 | Regione Puglia                | yes (6)  | no            |
-|  14 | Regione Sardegna              | yes      | iOS + Android |
-|  15 | Regione Sicilia               | some (4) | no            |
-|  16 | Regione Toscana               | some (3) | no            |
-|  17 | Regione Trentino Alto Adige   | yes (2)  | no            |
-|  18 | Regione Umbria                | no       | iOS + Android |
-|  19 | Regione Val d'Aosta           | yes      | no            |
-|  20 | Regione Veneto                | yes      | iOS + Android |
+## DATA
+| #   | Region                        | Website  | App           | API     |
+| --- | ---                           | ---      | ---           | ---     |
+|   1 | Regione Abruzzo               | yes (4)  | no            | pescara |
+|   2 | Regione Basilicata            | no       | no            |         |
+|   3 | Regione Calabria              | some (1) | no            |         |
+|   4 | Regione Campania              | some (1) | no            |         |
+|   5 | Regione Emilia Romagna        | yes      | iOS           |         |
+|   6 | Regione Friuli Venezia Giulia | yes      | iOS + Android |         |
+|   7 | Regione Lazio                 | yes      | iOS + Android | no      |
+|   8 | Regione Liguria               | yes      | Android       |         |
+|   9 | Regione Lombardia             | yes      | iOS + Android |         |
+|  10 | Regione Marche                | some (2) | iOS + Android |         |
+|  11 | Regione Molise                | yes      | no            |         |
+|  12 | Regione Piemonte              | some (4) | no            |         |
+|  13 | Regione Puglia                | yes (6)  | no            |         |
+|  14 | Regione Sardegna              | yes      | iOS + Android |         |
+|  15 | Regione Sicilia               | some (4) | no            |         |
+|  16 | Regione Toscana               | some (3) | no            |         |
+|  17 | Regione Trentino Alto Adige   | yes (2)  | no            |         |
+|  18 | Regione Umbria                | no       | iOS + Android |         |
+|  19 | Regione Val d'Aosta           | yes      | no            |         |
+|  20 | Regione Veneto                | yes      | iOS + Android |         |
 
 ## Notes
 - Same region has multiple data sources per ASL
